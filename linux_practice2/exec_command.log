@@ -1,0 +1,200 @@
+    1  exit
+    2  sudo yum -y groupinstall "development tools"
+    3  sudo yum -y install epel-release wget
+    4  sudo wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+    5  sudo rpm -Uvh remi-release-7.rpm
+    6  is /
+    7  ls /
+    8  -a
+    9  ls -a
+   10  ls -l
+   11  sudo yum -y install epel-release wget
+   12  sudo wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+   13  sudo rpm =Uvh remi-release-7.rpm
+   14  sudo yum -y install --enablerepo=remi-php72 php php-pdo php-mysqlnd php-mbstring php-xml php-fpm php-common php-devel php-mysql unzip
+   15  php -v
+   16  php -r "copy('https://getcomposer.org/installer','composer-setup.php');"
+   17  php composer-setup.php
+   18  php -r "unlink('composer-setup.php');"
+   19  sudo mv composer.phar /usr/local/bin/composer
+   20  composer -v
+   21  ls /
+   22  ls /usr
+   23  pwd
+   24  cd /vagrant
+   25  pwd
+   26  cd vagrant
+   27  cd usr
+   28  cd /usr
+   29  pwd
+   30  composer -v
+   31  cd /vagrant
+   32  mkdir server_lesson && cd server_lesson
+   33  git init
+   34  touch first.txt
+   35  cd /vagrant
+   36  mkdir server_lesson/linux_practice/public
+   37  cd /vagrant
+   38  mkdir -p server_lesson/linux_practice/public
+   39  ls server_lesson server_lesson/linux_practice
+   40  cd /vagrant
+   41  touch server_lesson/linux_practice/public/index.php
+   42  ls server_lesson/linux_practice/public
+   43  cd /vagrant/server_lesson && ls
+   44  cd /vagrant/server_lesson/linux_practice/public
+   45  cp index.php index_bk.php
+   46  ls
+   47  cd /linux_practice
+   48  cd /vagrant/server_lesson/linux_practice
+   49  cp -r public tmp
+   50  ls ./public tmp
+   51  cd /vagrant
+   52  mv server_lesson/linux_practice server_lesson/linux_practice1
+   53  mkdir linux_practice2 linux_practice3
+   54  mv ./linux_practice2 ./server_lesson
+   55  cd /vagrant/server_lesson/linux_practice1/tmp/
+   56  rm *_bk.php
+   57  ls
+   58  cd /vagrant
+   59  rm server_lesson/first.txt
+   60  rm -r linux_practice3
+   61  ls server_lesson
+   62  cd /vagrant/server_lesson
+   63  echo '# サーバーレッスン' > README.md
+   64  echo 'Linuxプラクティス' >> README.md
+   65  echo '-----------------' >> README.md
+   66  cat README.md
+   67  cd /vagrant/server_lesson
+   68  vi README.md
+   69  ls /
+   70  ls /server_lesson
+   71  cd /vagrant
+   72  ls /server_lesson
+   73  ls /tmp
+   74  ls /
+   75  tree server_lesson
+   76  tree
+   77  ls
+   78  cd /vagrant/server_lesson
+   79  ls
+   80  cd /linux_practice1
+   81  cd /vagrant/server_lesson/linux_practice1
+   82  ls
+   83  cd /vagrant/sever_lesson/linux_practice1/public
+   84  cd /vagrant
+   85  cd /vagrant/server_lesson/linux_practice1/public
+   86  ls
+   87  cd /vagrant/server_lesson/linux_practice1/tmp
+   88  ls
+   89  cd /vagrant/server_lesson/linux_practice2
+   90  ls
+   91  cd /vagrant
+   92  git branch
+   93  cd /vagrant/server_lesson
+   94  ls
+   95  cd /vagrant
+   96  cd linux_practice1
+   97  cd ../linux_practice1
+   98  cd ../../linux_practice1
+   99  cd ../server_lesson
+  100  cd /
+  101  cd /vagrant
+  102  cd ../server_lesson/
+  103  cd /
+  104  ls
+  105  cd /vagrant
+  106  ls
+  107  pwd
+  108  cd /
+  109  pwd
+  110  ls
+  111  git init
+  112  rollback
+  113  git status
+  114  cd /vagrant
+  115  cd ./server_lesson
+  116  cd /vagrant
+  117  cd ././linux_practice1
+  118  git init
+  119  git status
+  120  git add .
+  121  git status
+  122  git commit -m "first commit"
+  123  git status
+  124  git log
+  125  git remote add origin 
+  126  git remote add origin  
+  127  git remote add origin  
+  128  git remote add origin https://github.com/Shogo-Okada/server_lesson.git
+  129  git remote -v
+  130  git remote rm origin
+  131  git remote -v
+  132  git remote add origin https://github.com/Shogo-Okada/server_lesson.git
+  133  git remote -v
+  134  git push origin master
+  135  git remote -v
+  136  vi .git/config
+  137  git push origin master
+  138  ssh-keygen -t rsa -C skytraveler0918@gmail.com
+  139  ls ~/.ssh/
+  140  less ~/.ssh/id_rsa.pub
+  141  vim ~/.ssh/config
+  142  vi .ssh/config
+  143  vim ~/.ssh/config
+  144  vim /.ssh/config
+  145  vim .ssh/config
+  146  pwd
+  147  cd server_lesson
+  148  git status
+  149  ls
+  150  git log
+  151  show logtortoiseGit
+  152  cd vagrant
+  153  cd /vagrant
+  154  git log
+  155  git remote -v
+  156  git push origin master
+  157  cd server_lesson
+  158  ls
+  159  cd /vagrant
+  160  cd server_lesson/linux_practice2
+  161  mkdir documents
+  162  ls
+  163  @echo off
+  164  cd documents
+  165  touch gizumo{01..50}.md
+  166  ls
+  167  cd ../
+  168  mkdir trash
+  169  ls
+  170  cd documents
+  171  mv gizumo{20..40}.md trash
+  172  ls
+  173   mv gizumo{20..40}.md /vagrant/server_lesson/linux_practice2/trash
+  174  cd ../
+  175  ls
+  176  cd trash
+  177  ls
+  178  cd ../
+  179  mkdir .gitignore
+  180  ls
+  181  touch .gitignore
+  182  ls
+  183  vi .gitignore
+  184  touch .gitignore
+  185  ls
+  186  cd /vagrant
+  187  touch server_lesson/linux_practice2/.gitignore
+  188  ls server_lesson/linux_practice2  
+  189  cd server_lesson/linux_practice2
+  190  vi .sa
+  191  ls
+  192  vi .gitignore
+  193  rm .gitignore
+  194  rm -r .gitignore
+  195  touch .gitignore
+  196  ls
+  197  vi .gitignore
+  198  history 300
+  199  touch exec_command.log
+  200  history 300 > exec_command.log
